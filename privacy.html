@@ -86,7 +86,8 @@
         <thead><tr><th>Data</th><th>When</th><th>Why</th></tr></thead>
         <tbody>
           <tr><td>Your Discord user ID</td><td>When you use the bot</td><td>To know who is in the queue, who is testing and who has which results</td></tr>
-          <tr><td>Minecraft username and UUID</td><td>When you link your account (the Join Queue form) or staff link it for you</td><td>To record your rank against the right Minecraft account</td></tr>
+          <tr><td>Minecraft username and UUID</td><td>When you click <strong>Verify Account</strong> (by Microsoft sign-in or by typing your username) or staff link it for you</td><td>To record your rank against the right Minecraft account</td></tr>
+          <tr><td>Waitlist application: region and preferred server</td><td>When you click <strong>Enter Waitlist</strong></td><td>To give you access to your region’s waitlist channel and tell your tester where to test. Removed when you are tested.</td></tr>
           <tr><td>Account link history</td><td>When an account is linked or unlinked</td><td>Lets staff see who linked which account, and when, to prevent abuse</td></tr>
           <tr><td>Queue position and time joined</td><td>While you are in the queue or waitlist</td><td>To run the queue in order</td></tr>
           <tr><td>Tickets: channel ID, testee, tester, open time, last-activity time, lock and exempt settings</td><td>While a testing ticket is open</td><td>To manage the ticket and close inactive ones automatically</td></tr>
@@ -104,7 +105,8 @@
       <ul>
         <li><strong>Message content.</strong> The bot notices when a message is sent in an open testing ticket, so that active tickets are not auto-closed. It records only the time, never what was written.</li>
         <li>Your Discord username, email, IP address, avatar or other profile details. The bot shows your name by mentioning your user ID, and Discord displays it.</li>
-        <li>Passwords or Minecraft login details. Linking only needs a public Minecraft username.</li>
+        <li><strong>Microsoft, Xbox or Minecraft sign-in tokens.</strong> If you verify with Microsoft, you sign in on Microsoft’s own website. The bot uses the resulting tokens once to read your Minecraft username and UUID, then discards them.</li>
+        <li><strong>Passwords or Minecraft login details.</strong> Linking only needs a public Minecraft username. Microsoft sign-in happens on Microsoft’s own website; the bot never sees your password.</li>
       </ul>
     </section>
 
@@ -118,10 +120,11 @@
       <p>To do its job, the bot sends a small amount of data to these public services:</p>
       <ul>
         <li><strong>Mojang</strong> (api.mojang.com, api.minecraftservices.com): the Minecraft username you enter, to check it exists and get its UUID.</li>
+        <li><strong>Microsoft, Xbox Live and Minecraft services</strong> (login.microsoftonline.com, xboxlive.com, api.minecraftservices.com): only if you choose to verify with Microsoft, to confirm which Minecraft account you own.</li>
         <li><strong>MCTiers</strong> (mctiers.net): a Minecraft username or UUID, to show official MCTiers rankings and badges on profiles and in tickets.</li>
         <li><strong>mc-heads.net</strong>: a Minecraft UUID is part of the player-head image link in embeds. Discord loads that image.</li>
       </ul>
-      <p>No Discord IDs or other personal data are sent to these services. They have their own privacy policies.</p>
+      <p>No Discord IDs are sent to these services. They have their own privacy policies.</p>
     </section>
 
     <section>
