@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy · MCTiers Rebirth</title>
+  <meta name="description" content="What data the MCTiers Rebirth tier-testing Discord bot stores, why, and how to have it deleted.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f7fb;
+      --card: #ffffff;
+      --text: #1f2330;
+      --muted: #5b6275;
+      --accent: #5865f2;
+      --line: #e3e6ef;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1e1f24;
+        --card: #2b2d31;
+        --text: #e8e9ee;
+        --muted: #a3a7b5;
+        --accent: #8891f7;
+        --line: #3a3c43;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    main {
+      max-width: 760px;
+      margin: 48px auto;
+      padding: 40px 44px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+    }
+    header { border-bottom: 1px solid var(--line); padding-bottom: 20px; margin-bottom: 8px; }
+    .eyebrow { margin: 0; color: var(--accent); font-weight: 600; font-size: 14px; letter-spacing: .04em; text-transform: uppercase; }
+    h1 { margin: 4px 0 6px; font-size: 32px; line-height: 1.2; }
+    .updated { margin: 0; color: var(--muted); font-size: 14px; }
+    nav { margin-top: 12px; font-size: 14px; }
+    h2 { font-size: 19px; margin: 32px 0 8px; }
+    p, li { color: var(--text); }
+    ul { padding-left: 22px; }
+    li { margin: 4px 0; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 15px; }
+    th, td { text-align: left; vertical-align: top; padding: 9px 10px; border-bottom: 1px solid var(--line); }
+    th { color: var(--muted); font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: .03em; }
+    footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+    @media (max-width: 640px) {
+      main { margin: 0; border-radius: 0; border: 0; padding: 28px 20px; }
+      h1 { font-size: 26px; }
+      table, thead, tbody, tr, th, td { display: block; }
+      thead { display: none; }
+      td { border: 0; padding: 2px 0; }
+      tr { border-bottom: 1px solid var(--line); padding: 10px 0; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">MCTiers Rebirth</p>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: November 6, 2026</p>
+      <nav><a href="terms.html">← Terms of Service</a></nav>
+    </header>
+
+    <section>
+      <h2>Summary</h2>
+      <p>MCTiers Rebirth stores only what it needs to run testing queues, tickets and a tierlist for each Discord server. That is your Discord user ID, the Minecraft account you link, and your testing history. It does <strong>not</strong> read or store the content of your messages. It does not sell your data or use it for advertising.</p>
+    </section>
+
+    <section>
+      <h2>What we store</h2>
+      <p>Everything is stored per Discord server. Data from one server is not shared with or shown in another.</p>
+      <table>
+        <thead><tr><th>Data</th><th>When</th><th>Why</th></tr></thead>
+        <tbody>
+          <tr><td>Your Discord user ID</td><td>When you use the bot</td><td>To know who is in the queue, who is testing and who has which results</td></tr>
+          <tr><td>Minecraft username and UUID</td><td>When you link your account (the Join Queue form) or staff link it for you</td><td>To record your rank against the right Minecraft account</td></tr>
+          <tr><td>Account link history</td><td>When an account is linked or unlinked</td><td>Lets staff see who linked which account, and when, to prevent abuse</td></tr>
+          <tr><td>Queue position and time joined</td><td>While you are in the queue or waitlist</td><td>To run the queue in order</td></tr>
+          <tr><td>Tickets: channel ID, testee, tester, open time, last-activity time, lock and exempt settings</td><td>While a testing ticket is open</td><td>To manage the ticket and close inactive ones automatically</td></tr>
+          <tr><td>Ranks: current tier, peak tier, who set them and when</td><td>When a test result is given or staff set a rank</td><td>This server’s tierlist</td></tr>
+          <tr><td>Test history: testee, tester, previous and new tier, outcome and date</td><td>When a ticket is closed with a result or skipped</td><td>Results, cooldowns and tester statistics</td></tr>
+          <tr><td>Cooldown end time</td><td>After a test</td><td>To make members wait between tests</td></tr>
+          <tr><td>Tester activity</td><td>When a tester runs <code>/start</code> or <code>/stop</code></td><td>To show active testers on the queue panel</td></tr>
+          <tr><td>Server settings: role and channel IDs, quota, cooldown and auto-close settings, tierlist information</td><td>When an admin uses <code>/config</code></td><td>To run the bot in that server</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>What we do not store</h2>
+      <ul>
+        <li><strong>Message content.</strong> The bot notices when a message is sent in an open testing ticket, so that active tickets are not auto-closed. It records only the time, never what was written.</li>
+        <li>Your Discord username, email, IP address, avatar or other profile details. The bot shows your name by mentioning your user ID, and Discord displays it.</li>
+        <li>Passwords or Minecraft login details. Linking only needs a public Minecraft username.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Messages the bot posts</h2>
+      <p>Queue panels, ticket messages and test results are posted as normal Discord messages in the server’s channels. Those messages are stored by Discord and controlled by the server, under <a href="https://discord.com/privacy">Discord’s Privacy Policy</a>. Testing tickets are deleted when they are closed.</p>
+    </section>
+
+    <section>
+      <h2>Outside services</h2>
+      <p>To do its job, the bot sends a small amount of data to these public services:</p>
+      <ul>
+        <li><strong>Mojang</strong> (api.mojang.com, api.minecraftservices.com): the Minecraft username you enter, to check it exists and get its UUID.</li>
+        <li><strong>MCTiers</strong> (mctiers.net): a Minecraft username or UUID, to show official MCTiers rankings and badges on profiles and in tickets.</li>
+        <li><strong>mc-heads.net</strong>: a Minecraft UUID is part of the player-head image link in embeds. Discord loads that image.</li>
+      </ul>
+      <p>No Discord IDs or other personal data are sent to these services. They have their own privacy policies.</p>
+    </section>
+
+    <section>
+      <h2>How long we keep it</h2>
+      <p>Queue entries are removed when you leave the queue or your ticket opens. Ticket records are removed when the ticket closes. Cooldowns expire on their own. Account links, ranks, link history and test history are kept as long as the bot runs in that server, because they make up the server’s tierlist and records, or until they are deleted as described below. If the bot is removed from a server, that server’s data can be deleted on request.</p>
+    </section>
+
+    <section>
+      <h2>Your choices and deleting your data</h2>
+      <ul>
+        <li><strong>Leave the queue</strong> at any time with <code>/leave</code>.</li>
+        <li><strong>Unlink your account or remove your ranks:</strong> ask the staff of that server. They can use <code>/forceauth unlink</code> and <code>/tierwipe</code>.</li>
+        <li><strong>See or delete everything stored about you:</strong> contact the bot owner (below) with your Discord user ID and the server. We will reply within 30 days. Some test records may be kept in anonymised form, with your Discord ID removed, so a server’s tester statistics stay correct.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Who can see your data</h2>
+      <p>Your rank, peak tier and linked Minecraft name can be seen by anyone in the server, for example through <code>/profile</code>. Account link history, tester statistics and settings are only shown to that server’s testers or staff. The bot owner can access the database to run and maintain the bot. We never sell or rent your data.</p>
+    </section>
+
+    <section>
+      <h2>Security</h2>
+      <p>Data is kept in a database on the machine that runs the bot, which is not publicly reachable. No system is perfectly secure, but we only store the limited data listed above.</p>
+    </section>
+
+    <section>
+      <h2>Children</h2>
+      <p>The bot is meant for people who meet Discord’s minimum age. We do not knowingly collect data from anyone younger.</p>
+    </section>
+
+    <section>
+      <h2>Changes</h2>
+      <p>This policy may change. The date at the top shows the latest version. Important changes will be announced where possible.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>For privacy questions or deletion requests, contact the bot owner through <a href="https://github.com/tatnatYT">github.com/tatnatYT</a>.</p>
+    </section>
+
+    <footer>
+      <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a> · Not affiliated with MCTiers, Mojang Studios or Microsoft.
+    </footer>
+  </main>
+</body>
+</html>
