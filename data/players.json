@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T18:51:43.164Z",
+ "updated": "2026-11-07T19:04:00.172Z",
  "players": [
   {
    "uuid": "417e98e2-0e4d-4174-a703-1d5ec1394324",
@@ -43,6 +43,19 @@
   {
    "uuid": "19f52852-ad67-436b-945a-200689679684",
    "name": "Matttiie",
+   "region": null,
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 0,
+     "peakTier": 3,
+     "peakPos": 0
+    }
+   }
+  },
+  {
+   "uuid": "0c195cff-3f6f-4918-a796-d64fc485bd73",
+   "name": "Minionity",
    "region": null,
    "tiers": {
     "mace": {
