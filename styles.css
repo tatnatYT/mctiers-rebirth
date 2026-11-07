@@ -110,7 +110,7 @@ main { margin-top: 40px; }
   font-weight: 700; font-size: 15px;
   position: relative;
 }
-.tab img { width: 32px; height: 32px; opacity: .8; image-rendering: pixelated; filter: drop-shadow(0 0 1px rgba(255,255,255,.25)); }
+.tab img { width: 32px; height: 32px; opacity: .8; filter: drop-shadow(0 0 1px rgba(255,255,255,.25)); }
 .tab img[src$=".svg"] { image-rendering: auto; }
 .tab.active img, .tab:hover img { opacity: 1; }
 .tab:hover { color: #aab3c4; }
