@@ -194,7 +194,7 @@ main { margin-top: 40px; }
   display: grid; place-items: center;
   background: #121926; border: 2px solid #3a4558;
 }
-.tier-ring img { width: 16px; height: 16px; image-rendering: pixelated; }
+.tier-ring img { width: 20px; height: 20px; }
 .tier-ring img[src$=".svg"] { image-rendering: auto; }
 .tier-label { font-size: 12.5px; font-weight: 700; padding: 0 4px; border-radius: 5px; line-height: 17px; }
 .t1 .tier-ring { border-color: #e9b23a; }
@@ -351,4 +351,4 @@ main { margin-top: 40px; }
 }
 
 .tier-ring img { filter: drop-shadow(0 0 1px rgba(255,255,255,.25)); }
-img[src$="nethpot.png"] { filter: brightness(1.7) drop-shadow(0 0 1px rgba(255,255,255,.3)); }
+img[src*="nethpot.png"] { filter: brightness(1.7) drop-shadow(0 0 1px rgba(255,255,255,.3)); }

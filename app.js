@@ -6,15 +6,15 @@
   const DISCORD_INVITE = '';
 
   const GAMEMODES = [
-    { key: 'vanilla', title: 'Vanilla', icon: 'assets/icons/vanilla.png' },
-    { key: 'uhc', title: 'UHC', icon: 'assets/icons/uhc.png' },
-    { key: 'pot', title: 'Pot', icon: 'assets/icons/pot.png' },
-    { key: 'nethop', title: 'NethPot', icon: 'assets/icons/nethpot.png' },
-    { key: 'smp', title: 'SMP', icon: 'assets/icons/smp.png' },
-    { key: 'sword', title: 'Sword', icon: 'assets/icons/sword.png' },
-    { key: 'axe', title: 'Axe', icon: 'assets/icons/axe.png' },
-    { key: 'mace', title: 'Mace', icon: 'assets/icons/mace.png' },
-    { key: 'spear', title: 'Spear', icon: 'assets/icons/spear.png' },
+    { key: 'vanilla', title: 'Vanilla', icon: 'assets/icons/vanilla.png?v=3' },
+    { key: 'uhc', title: 'UHC', icon: 'assets/icons/uhc.png?v=3' },
+    { key: 'pot', title: 'Pot', icon: 'assets/icons/pot.png?v=3' },
+    { key: 'nethop', title: 'NethPot', icon: 'assets/icons/nethpot.png?v=3' },
+    { key: 'smp', title: 'SMP', icon: 'assets/icons/smp.png?v=3' },
+    { key: 'sword', title: 'Sword', icon: 'assets/icons/sword.png?v=3' },
+    { key: 'axe', title: 'Axe', icon: 'assets/icons/axe.png?v=3' },
+    { key: 'mace', title: 'Mace', icon: 'assets/icons/mace.png?v=3' },
+    { key: 'spear', title: 'Spear', icon: 'assets/icons/spear.png?v=3' },
   ];
 
   // HT1 .. LT5. Index = (tier - 1) * 2 + pos, where pos 0 = high, 1 = low.
