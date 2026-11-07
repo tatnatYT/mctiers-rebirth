@@ -6,15 +6,15 @@
   const DISCORD_INVITE = '';
 
   const GAMEMODES = [
-    { key: 'vanilla', title: 'Vanilla', icon: 'assets/icons/end_crystal.png' },
-    { key: 'uhc', title: 'UHC', icon: 'assets/icons/golden_apple.png' },
-    { key: 'pot', title: 'Pot', icon: 'potion' },
-    { key: 'nethop', title: 'NethPot', icon: 'assets/icons/netherite_helmet.png' },
-    { key: 'smp', title: 'SMP', icon: 'assets/icons/ender_pearl.png' },
-    { key: 'sword', title: 'Sword', icon: 'assets/icons/diamond_sword.png' },
-    { key: 'axe', title: 'Axe', icon: 'assets/icons/diamond_axe.png' },
-    { key: 'mace', title: 'Mace', icon: 'assets/icons/mace.png' },
-    { key: 'spear', title: 'Spear', icon: 'assets/icons/diamond_spear.png' },
+    { key: 'vanilla', title: 'Vanilla', icon: 'assets/icons/vanilla.svg' },
+    { key: 'uhc', title: 'UHC', icon: 'assets/icons/uhc.svg' },
+    { key: 'pot', title: 'Pot', icon: 'assets/icons/pot.svg' },
+    { key: 'nethop', title: 'NethPot', icon: 'assets/icons/nethpot.svg' },
+    { key: 'smp', title: 'SMP', icon: 'assets/icons/smp.svg' },
+    { key: 'sword', title: 'Sword', icon: 'assets/icons/sword.svg' },
+    { key: 'axe', title: 'Axe', icon: 'assets/icons/axe.svg' },
+    { key: 'mace', title: 'Mace', icon: 'assets/icons/mace.svg' },
+    { key: 'spear', title: 'Spear', icon: 'assets/icons/spear.svg' },
   ];
 
   // HT1 .. LT5. Index = (tier - 1) * 2 + pos, where pos 0 = high, 1 = low.
@@ -46,37 +46,8 @@
   let players = [];
 
   // ---------- icons ----------
-  /** The splash potion texture is grey: tint its liquid layer red, like a potion of healing. */
-  function makePotionIcon() {
-    return new Promise((resolve) => {
-      const bottle = new Image();
-      const liquid = new Image();
-      let loaded = 0;
-      const done = () => {
-        if (++loaded < 2) return;
-        const c = document.createElement('canvas');
-        c.width = c.height = 16;
-        const g = c.getContext('2d');
-        g.drawImage(liquid, 0, 0);
-        g.globalCompositeOperation = 'multiply';
-        g.fillStyle = '#f82423';
-        g.fillRect(0, 0, 16, 16);
-        g.globalCompositeOperation = 'destination-in';
-        g.drawImage(liquid, 0, 0);
-        g.globalCompositeOperation = 'source-over';
-        g.drawImage(bottle, 0, 0);
-        try { resolve(c.toDataURL()); } catch { resolve('assets/icons/splash_potion.png'); }
-      };
-      bottle.onload = liquid.onload = done;
-      bottle.onerror = liquid.onerror = () => resolve('assets/icons/splash_potion.png');
-      bottle.src = 'assets/icons/splash_potion.png';
-      liquid.src = 'assets/icons/potion_overlay.png';
-    });
-  }
-
   const TROPHY = '<svg viewBox="0 0 24 24"><path d="M6 3h12v2h3v3a4 4 0 0 1-4 4h-.4A6 6 0 0 1 13 15.8V18h3v3H8v-3h3v-2.2A6 6 0 0 1 7.4 12H7a4 4 0 0 1-4-4V5h3zm0 4H5v1a2 2 0 0 0 1.2 1.8C6.1 9.2 6 8.6 6 8zm12 0v1c0 .6-.1 1.2-.2 1.8A2 2 0 0 0 19 8V7z"/></svg>';
-  const trophyImg = 'data:image/svg+xml,' + encodeURIComponent(
-    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#f4a51c" d="M6 3h12v2h3v3a4 4 0 0 1-4 4h-.4A6 6 0 0 1 13 15.8V18h3v3H8v-3h3v-2.2A6 6 0 0 1 7.4 12H7a4 4 0 0 1-4-4V5h3zm0 4H5v1a2 2 0 0 0 1.2 1.8C6.1 9.2 6 8.6 6 8zm12 0v1c0 .6-.1 1.2-.2 1.8A2 2 0 0 0 19 8V7z"/></svg>');
+  const trophyImg = 'assets/icons/trophy.svg';
   const CHEV_HT = '<svg class="chev" viewBox="0 0 24 24"><path d="m6 12 6-6 6 6M6 18l6-6 6 6"/></svg>';
   const CHEV_LT = '<svg class="chev" viewBox="0 0 24 24"><path d="m6 15 6-6 6 6"/></svg>';
   const titleIcon = (color) =>
@@ -110,12 +81,12 @@
     const tabs = [{ key: 'overall', title: 'Overall', icon: trophyImg }, ...GAMEMODES];
     $('#tabs').innerHTML = tabs.map((t) =>
       `<a class="tab${t.key === active ? ' active' : ''}" href="#${t.key}" role="tab">
-        <img class="px" src="${t.icon}" alt="">${esc(t.title)}</a>`).join('');
+        <img src="${t.icon}" alt="">${esc(t.title)}</a>`).join('');
   }
 
   function tierBadge(t) {
     return `<div class="tier-badge t${t.tier}${t.retired ? ' retired' : ''}" title="${esc(GAMEMODES.find((g) => g.key === t.key)?.title ?? t.key)}: ${tierCode(t)}">
-      <div class="tier-ring"><img class="px" src="${iconOf(t.key)}" alt=""></div>
+      <div class="tier-ring"><img src="${iconOf(t.key)}" alt=""></div>
       <span class="tier-label">${tierCode(t)}</span></div>`;
   }
 
@@ -249,8 +220,6 @@
   }
 
   async function init() {
-    const potion = await makePotionIcon();
-    GAMEMODES.find((g) => g.key === 'pot').icon = potion;
     if (DISCORD_INVITE) { $('#discordLink').href = DISCORD_INVITE; $('#discordLink').hidden = false; }
 
     window.addEventListener('hashchange', route);
