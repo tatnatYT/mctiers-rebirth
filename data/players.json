@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T16:48:15.793Z",
+ "updated": "2026-11-07T16:50:07.217Z",
  "players": [
   {
    "uuid": "417e98e2-0e4d-4174-a703-1d5ec1394324",
@@ -17,6 +17,19 @@
   {
    "uuid": "7e8a77ca-daf1-4224-ae1d-2df8bab1eccb",
    "name": "coldified",
+   "region": null,
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
+     "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "c79cbe6c-3b48-4c5d-9361-46d1255a5426",
+   "name": "faxaxax",
    "region": null,
    "tiers": {
     "mace": {
