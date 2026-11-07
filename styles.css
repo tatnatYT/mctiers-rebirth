@@ -13,7 +13,7 @@
   --bronze: #c9743a;
   --eu: #3fb35d;
   --na: #e5484d;
-  --as: #a463e8;
+  --as: #d9b98c;
 }
 
 * { box-sizing: border-box; }
@@ -182,7 +182,7 @@ main { margin-top: 40px; }
 }
 .region-eu { color: var(--eu); background: rgba(63, 179, 93, .14); }
 .region-nasa { color: var(--na); background: rgba(229, 72, 77, .16); }
-.region-asau { color: var(--as); background: rgba(164, 99, 232, .16); }
+.region-asau { color: var(--as); background: rgba(217, 185, 140, .15); }
 .region-none { color: var(--dim); background: rgba(255,255,255,.04); }
 .tiers-cell {
   display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 6px;
@@ -236,13 +236,18 @@ main { margin-top: 40px; }
   cursor: pointer;
 }
 .col-item:hover { background: #243046; }
+/* High tier rows are lighter with a bright double arrow; low tier rows sit back. */
+.col-item.ht { background: #273246; }
+.col-item.ht:hover { background: #2e3a51; }
+.col-item.lt { background: #171e2b; }
+.col-item.lt:hover { background: #1e2737; }
 .col-item.r-eu { border-left-color: var(--eu); }
 .col-item.r-nasa { border-left-color: var(--na); }
 .col-item.r-asau { border-left-color: var(--as); }
 .col-item img { width: 24px; height: 24px; border-radius: 3px; flex: none; }
 .col-item .n { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 500; }
-.col-item .chev { width: 18px; height: 18px; color: #6d788c; flex: none; }
-.col-item.ht .chev { color: #8f9bb0; }
+.col-item .chev { width: 18px; height: 18px; color: #3a4558; flex: none; }
+.col-item.ht .chev { color: #7d8fae; }
 .col-item.retired .n { color: var(--muted); font-style: italic; }
 .col-empty { padding: 14px; color: var(--dim); text-align: center; font-size: 14px; background: #161d2a; margin-top: 2px; }
 

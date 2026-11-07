@@ -179,7 +179,7 @@
     openModal(`<div class="info">
       <h2>Information</h2>
       <p>Every player on this list was tested by an MCTiers Rebirth tester in our Discord server. Tier 1 is the highest tier and Tier 5 the lowest. Each tier has a high (HT) and a low (LT) half.</p>
-      <p>In a gamemode tab, two arrows next to a name mean high tier and one arrow means low tier. The coloured line shows the player's region: green for EU, red for NA/SA and purple for AS/AU.</p>
+      <p>In a gamemode tab, two arrows next to a name mean high tier and one arrow means low tier. The coloured line shows the player's region: green for EU, red for NA/SA and beige for AS/AU.</p>
       <p>The overall ranking adds up points from every gamemode:</p>
       <table><tr><th></th><th>High</th><th>Low</th></tr>${rows}</table>
       <p>Titles: ${TITLES.slice().reverse().map((t) => `${t.name} (${t.min}+)`).join(', ')}.</p>
