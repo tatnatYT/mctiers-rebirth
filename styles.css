@@ -44,7 +44,6 @@ svg { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; 
   background: rgba(17, 23, 35, .6);
 }
 .brand { display: flex; align-items: center; gap: 10px; }
-.brand-logo { width: 38px; height: 38px; border-radius: 9px; }
 .brand-text {
   font: 26px/1 "Russo One", Inter, sans-serif;
   letter-spacing: .5px;
