@@ -13,7 +13,7 @@
   --bronze: #c9743a;
   --eu: #3fb35d;
   --na: #e5484d;
-  --as: #d9b98c;
+  --as: #d5ad80;
 }
 
 * { box-sizing: border-box; }
@@ -182,7 +182,7 @@ main { margin-top: 40px; }
 }
 .region-eu { color: var(--eu); background: rgba(63, 179, 93, .14); }
 .region-nasa { color: var(--na); background: rgba(229, 72, 77, .16); }
-.region-asau { color: var(--as); background: rgba(217, 185, 140, .15); }
+.region-asau { color: var(--as); background: rgba(213, 173, 128, .15); }
 .region-none { color: var(--dim); background: rgba(255,255,255,.04); }
 .tiers-cell {
   display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 6px;
