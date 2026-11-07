@@ -1,0 +1,31 @@
+{
+ "updated": "2026-11-07T15:34:09.469Z",
+ "players": [
+  {
+   "uuid": "c891bc50-c0ae-41d4-aea8-fa53fc714401",
+   "name": "StoneTrail",
+   "region": null,
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
+     "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "b94edf63-0cd9-4678-a245-c14a32a3d0d2",
+   "name": "ykfelix",
+   "region": null,
+   "tiers": {
+    "mace": {
+     "tier": 4,
+     "pos": 0,
+     "peakTier": 4,
+     "peakPos": 0
+    }
+   }
+  }
+ ]
+}
