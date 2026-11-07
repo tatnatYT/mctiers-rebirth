@@ -31,6 +31,7 @@
   ];
 
   const REGIONS = { eu: 'EU', nasa: 'NA/SA', asau: 'AS/AU' };
+  const REGION_NAMES = { eu: 'Europe', nasa: 'North and South America', asau: 'Asia and Australia' };
 
   const $ = (sel) => document.querySelector(sel);
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
@@ -178,15 +179,27 @@
     if (!p) return;
     const ranked = overallOrder().find((x) => x.uuid === uuid);
     const title = titleOf(p.points);
+    const rank = ranked?.rank;
+    const ring = rank === 1 ? 'gold' : rank === 2 ? 'silver' : rank === 3 ? 'bronze' : 'plain';
     openModal(`<div class="profile">
-      <img class="profile-skin" src="${bust(p)}" alt="" onerror="this.onerror=null;this.src='${head(p, 128)}'">
+      <div class="profile-avatar ring-${ring}"><img src="${bust(p)}" alt="" onerror="this.onerror=null;this.src='${head(p, 128)}'"></div>
       <h2>${esc(p.name)}</h2>
-      <div class="player-title">${titleIcon(title.color)}${title.name} <small>(${p.points} points)</small></div>
-      <div class="meta">${ranked ? `<span class="pos">#${ranked.rank} Overall</span>` : ''}${regionBadge(p.region)}</div>
+      <div class="title-pill" style="--c:${title.color}">${titleIcon(title.color)}${title.name}</div>
+      <div class="region-name">${p.region && REGION_NAMES[p.region] ? REGION_NAMES[p.region] : 'Unknown region'}</div>
+      <a class="namemc" href="https://namemc.com/profile/${esc(p.uuid)}" target="_blank" rel="noopener">
+        <span class="namemc-logo">n</span>NameMC
+        <svg viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>
+      <h3>POSITION</h3>
+      <div class="position rank-${rank ?? 0}">
+        <div class="position-plate"><span>${rank ? `${rank}.` : '-'}</span></div>
+        <img src="${trophyImg}" alt="" class="position-trophy">
+        <b>OVERALL</b><small>(${p.points} points)</small>
+      </div>
+      <h3>TIERS</h3>
       <div class="profile-tiers">${p.tiers.length ? p.tiers.map((t) => {
-        const peak = t.peakTier && (t.peakTier !== t.tier || t.peakPos !== t.pos) ? `<div class="peak">Peak ${tierCode({ tier: t.peakTier, pos: t.peakPos })}</div>` : '';
-        return `<div class="profile-tier">${tierBadge(t)}<div class="gm">${esc(GAMEMODES.find((g) => g.key === t.key)?.title ?? t.key)}</div>${peak}</div>`;
-      }).join('') : '<p>Not ranked yet.</p>'}</div></div>`);
+        const peak = t.peakTier && (t.peakTier !== t.tier || t.peakPos !== t.pos) ? ` (peak ${tierCode({ tier: t.peakTier, pos: t.peakPos })})` : '';
+        return tierBadge(t).replace(/title="([^"]*)"/, (m, x) => `title="${x}${peak}"`);
+      }).join('') : '<span class="none">Not ranked yet.</span>'}</div></div>`);
   }
 
   function openInfo() {
