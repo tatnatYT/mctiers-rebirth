@@ -1,6 +1,19 @@
 {
- "updated": "2026-11-07T16:40:36.771Z",
+ "updated": "2026-11-07T16:44:00.841Z",
  "players": [
+  {
+   "uuid": "417e98e2-0e4d-4174-a703-1d5ec1394324",
+   "name": "centence",
+   "region": null,
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
+     "peakPos": 1
+    }
+   }
+  },
   {
    "uuid": "f2f41641-3287-42fa-9475-ea0bcbb6a084",
    "name": "qNava",
