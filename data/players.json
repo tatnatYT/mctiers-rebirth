@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T19:21:55.336Z",
+ "updated": "2026-11-07T19:31:56.166Z",
  "players": [
   {
    "uuid": "417e98e2-0e4d-4174-a703-1d5ec1394324",
@@ -30,6 +30,19 @@
   {
    "uuid": "c79cbe6c-3b48-4c5d-9361-46d1255a5426",
    "name": "faxaxax",
+   "region": null,
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
+     "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "e7c9a4e1-a265-4c46-b0ce-34548e668d2b",
+   "name": "JawaGoesAllIn",
    "region": null,
    "tiers": {
     "mace": {
