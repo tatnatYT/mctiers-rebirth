@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T19:04:00.172Z",
+ "updated": "2026-11-07T19:21:55.336Z",
  "players": [
   {
    "uuid": "417e98e2-0e4d-4174-a703-1d5ec1394324",
@@ -56,6 +56,19 @@
   {
    "uuid": "0c195cff-3f6f-4918-a796-d64fc485bd73",
    "name": "Minionity",
+   "region": null,
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 0,
+     "peakTier": 3,
+     "peakPos": 0
+    }
+   }
+  },
+  {
+   "uuid": "10bf4be9-3b49-4a68-aebc-c9d6128a9c18",
+   "name": "PornaldoJr",
    "region": null,
    "tiers": {
     "mace": {
