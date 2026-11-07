@@ -7,7 +7,7 @@
 
   const GAMEMODES = [
     { key: 'vanilla', title: 'Vanilla', icon: 'assets/icons/end_crystal.png' },
-    { key: 'uhc', title: 'UHC', icon: 'assets/icons/heart.png' },
+    { key: 'uhc', title: 'UHC', icon: 'assets/icons/golden_apple.png' },
     { key: 'pot', title: 'Pot', icon: 'potion' },
     { key: 'nethop', title: 'NethPot', icon: 'assets/icons/netherite_helmet.png' },
     { key: 'smp', title: 'SMP', icon: 'assets/icons/ender_pearl.png' },

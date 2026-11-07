@@ -111,11 +111,10 @@ main { margin-top: 40px; }
   font-weight: 700; font-size: 15px;
   position: relative;
 }
-.tab img { width: 30px; height: 30px; filter: saturate(.75) brightness(.85); }
+.tab img { width: 32px; height: 32px; image-rendering: pixelated; opacity: .7; filter: drop-shadow(0 0 1px rgba(255,255,255,.18)); }
+.tab.active img, .tab:hover img { opacity: 1; }
 .tab:hover { color: #aab3c4; }
-.tab:hover img { filter: none; }
 .tab.active { color: #fff; }
-.tab.active img { filter: none; }
 .tab.active::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 3px; background: #fff; border-radius: 2px; }
 
 /* ---------- board ---------- */
@@ -190,11 +189,11 @@ main { margin-top: 40px; }
 }
 .tier-badge { display: flex; flex-direction: column; align-items: center; gap: 3px; width: 36px; }
 .tier-ring {
-  width: 30px; height: 30px; border-radius: 50%;
+  width: 32px; height: 32px; border-radius: 50%;
   display: grid; place-items: center;
   background: #121926; border: 2px solid #3a4558;
 }
-.tier-ring img { width: 18px; height: 18px; }
+.tier-ring img { width: 16px; height: 16px; image-rendering: pixelated; filter: drop-shadow(0 0 1px rgba(255,255,255,.22)); }
 .tier-label { font-size: 12.5px; font-weight: 700; padding: 0 4px; border-radius: 5px; line-height: 17px; }
 .t1 .tier-ring { border-color: #e9b23a; }
 .t1 .tier-label { color: #f7cf6b; background: #3d3216; }
@@ -343,3 +342,6 @@ main { margin-top: 40px; }
   .search { width: 160px; }
   .brand-text { font-size: 20px; }
 }
+
+/* The netherite helmet is almost black: lift it so it reads on the dark UI. */
+img[src*="netherite_helmet"] { filter: brightness(1.9) drop-shadow(0 0 1px rgba(255,255,255,.3)) !important; }
