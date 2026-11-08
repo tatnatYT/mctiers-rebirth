@@ -1,6 +1,19 @@
 {
- "updated": "2026-11-08T19:35:03.946Z",
+ "updated": "2026-11-08T19:47:39.906Z",
  "players": [
+  {
+   "uuid": "52522709-069e-40c7-8abe-41af758d33c8",
+   "name": "_Cherrypepsi",
+   "region": "nasa",
+   "tiers": {
+    "mace": {
+     "tier": 5,
+     "pos": 0,
+     "peakTier": 5,
+     "peakPos": 0
+    }
+   }
+  },
   {
    "uuid": "829d5f56-ea24-405b-814f-9d205f41bced",
    "name": "Alpnita",
