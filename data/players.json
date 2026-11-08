@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T11:15:09.740Z",
+ "updated": "2026-11-08T13:25:40.764Z",
  "players": [
   {
    "uuid": "417e98e2-0e4d-4174-a703-1d5ec1394324",
@@ -43,6 +43,19 @@
   {
    "uuid": "c79cbe6c-3b48-4c5d-9361-46d1255a5426",
    "name": "faxaxax",
+   "region": "eu",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
+     "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "41ccdd2f-ec83-4f33-a7c9-128f1834754e",
+   "name": "Herm_s_",
    "region": "eu",
    "tiers": {
     "mace": {
