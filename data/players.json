@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T23:23:07.117Z",
+ "updated": "2026-11-08T11:15:09.740Z",
  "players": [
   {
    "uuid": "417e98e2-0e4d-4174-a703-1d5ec1394324",
@@ -11,6 +11,19 @@
      "pos": 1,
      "peakTier": 3,
      "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "2533d30f-438c-4084-9112-3fd2b6046d6c",
+   "name": "DangerMrfidlmaos",
+   "region": "asau",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 0,
+     "peakTier": 3,
+     "peakPos": 0
     }
    }
   },
