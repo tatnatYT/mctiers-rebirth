@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T14:51:17.013Z",
+ "updated": "2026-11-08T14:51:24.797Z",
  "players": [
   {
    "uuid": "1000393d-c42d-4578-b2cb-63ca5bb6d114",
@@ -148,6 +148,19 @@
    "uuid": "0c195cff-3f6f-4918-a796-d64fc485bd73",
    "name": "Minionity",
    "region": "asau",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 0,
+     "peakTier": 3,
+     "peakPos": 0
+    }
+   }
+  },
+  {
+   "uuid": "c39dccf9-82d9-4962-9cf0-ac665bc8a07a",
+   "name": "muhOnCeiling",
+   "region": "eu",
    "tiers": {
     "mace": {
      "tier": 3,
