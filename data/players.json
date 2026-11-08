@@ -1,6 +1,19 @@
 {
- "updated": "2026-11-08T13:49:10.853Z",
+ "updated": "2026-11-08T13:51:16.550Z",
  "players": [
+  {
+   "uuid": "1000393d-c42d-4578-b2cb-63ca5bb6d114",
+   "name": "Bananp",
+   "region": "nasa",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 0,
+     "peakTier": 3,
+     "peakPos": 0
+    }
+   }
+  },
   {
    "uuid": "417e98e2-0e4d-4174-a703-1d5ec1394324",
    "name": "centence",
