@@ -1,10 +1,23 @@
 {
- "updated": "2026-11-08T13:25:40.764Z",
+ "updated": "2026-11-08T13:49:10.853Z",
  "players": [
   {
    "uuid": "417e98e2-0e4d-4174-a703-1d5ec1394324",
    "name": "centence",
    "region": "asau",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
+     "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "62cb6ae1-cc6d-4e2e-a85e-12efe0fb946c",
+   "name": "Clivan",
+   "region": "eu",
    "tiers": {
     "mace": {
      "tier": 3,
