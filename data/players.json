@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T16:10:11.871Z",
+ "updated": "2026-11-08T16:14:51.346Z",
  "players": [
   {
    "uuid": "829d5f56-ea24-405b-814f-9d205f41bced",
@@ -271,6 +271,19 @@
      "pos": 0,
      "peakTier": 3,
      "peakPos": 0
+    }
+   }
+  },
+  {
+   "uuid": "380dab1d-8461-4a8b-83fc-0d39867844a1",
+   "name": "timble_",
+   "region": "nasa",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
+     "peakPos": 1
     }
    }
   },
