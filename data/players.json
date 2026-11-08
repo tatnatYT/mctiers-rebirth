@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T17:43:05.472Z",
+ "updated": "2026-11-08T18:42:07.299Z",
  "players": [
   {
    "uuid": "829d5f56-ea24-405b-814f-9d205f41bced",
@@ -271,6 +271,19 @@
      "pos": 1,
      "peakTier": 3,
      "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "57bb24cc-04f2-4efb-b1a3-26a890c031b7",
+   "name": "sleepywx",
+   "region": "asau",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 0,
+     "peakTier": 3,
+     "peakPos": 0
     }
    }
   },
