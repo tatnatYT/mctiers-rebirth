@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T13:51:16.550Z",
+ "updated": "2026-11-08T14:41:30.577Z",
  "players": [
   {
    "uuid": "1000393d-c42d-4578-b2cb-63ca5bb6d114",
@@ -50,6 +50,19 @@
      "pos": 0,
      "peakTier": 3,
      "peakPos": 0
+    }
+   }
+  },
+  {
+   "uuid": "be535180-9468-4012-beb8-1b6793493bb0",
+   "name": "Ducky81",
+   "region": "asau",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
+     "peakPos": 1
     }
    }
   },
