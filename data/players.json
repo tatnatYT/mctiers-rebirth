@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T19:32:43.778Z",
+ "updated": "2026-11-08T19:35:03.946Z",
  "players": [
   {
    "uuid": "829d5f56-ea24-405b-814f-9d205f41bced",
@@ -323,6 +323,19 @@
      "pos": 1,
      "peakTier": 3,
      "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "bcc9c81e-db55-4676-9abe-6e3f9ed38d0d",
+   "name": "stunslams",
+   "region": "eu",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 0,
+     "peakTier": 3,
+     "peakPos": 0
     }
    }
   },
