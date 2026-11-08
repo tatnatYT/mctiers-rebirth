@@ -1,6 +1,19 @@
 {
- "updated": "2026-11-08T15:23:42.416Z",
+ "updated": "2026-11-08T15:35:31.197Z",
  "players": [
+  {
+   "uuid": "829d5f56-ea24-405b-814f-9d205f41bced",
+   "name": "Alpnita",
+   "region": "eu",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 0,
+     "peakTier": 3,
+     "peakPos": 0
+    }
+   }
+  },
   {
    "uuid": "a56a420d-4870-4ade-a54c-2479bde87ea6",
    "name": "AmazeyGoesAllIn",
