@@ -1,6 +1,19 @@
 {
- "updated": "2026-11-08T14:51:24.797Z",
+ "updated": "2026-11-08T15:23:42.416Z",
  "players": [
+  {
+   "uuid": "a56a420d-4870-4ade-a54c-2479bde87ea6",
+   "name": "AmazeyGoesAllIn",
+   "region": "asau",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
+     "peakPos": 1
+    }
+   }
+  },
   {
    "uuid": "1000393d-c42d-4578-b2cb-63ca5bb6d114",
    "name": "Bananp",
