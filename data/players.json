@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T20:26:03.682Z",
+ "updated": "2026-11-08T20:43:46.262Z",
  "players": [
   {
    "uuid": "52522709-069e-40c7-8abe-41af758d33c8",
@@ -218,6 +218,19 @@
      "tier": 3,
      "pos": 1,
      "peakTier": 3,
+     "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "7d84f317-f338-4521-803a-53c741cff181",
+   "name": "KittyCatMeowwww",
+   "region": "nasa",
+   "tiers": {
+    "mace": {
+     "tier": 4,
+     "pos": 1,
+     "peakTier": 4,
      "peakPos": 1
     }
    }
