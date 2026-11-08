@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T15:44:12.135Z",
+ "updated": "2026-11-08T15:56:26.817Z",
  "players": [
   {
    "uuid": "829d5f56-ea24-405b-814f-9d205f41bced",
@@ -193,6 +193,19 @@
      "pos": 0,
      "peakTier": 3,
      "peakPos": 0
+    }
+   }
+  },
+  {
+   "uuid": "b8829193-d250-4f2c-84d4-5f01e23e8dda",
+   "name": "NeedforHuzz",
+   "region": "asau",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
+     "peakPos": 1
     }
    }
   },
