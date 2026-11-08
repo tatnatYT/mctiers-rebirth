@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T18:42:07.299Z",
+ "updated": "2026-11-08T19:31:42.282Z",
  "players": [
   {
    "uuid": "829d5f56-ea24-405b-814f-9d205f41bced",
@@ -265,6 +265,19 @@
    "uuid": "f2f41641-3287-42fa-9475-ea0bcbb6a084",
    "name": "qNava",
    "region": "asau",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
+     "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "1440768c-7960-471a-8ebe-f473a3bc6653",
+   "name": "santavyrr",
+   "region": "eu",
    "tiers": {
     "mace": {
      "tier": 3,
