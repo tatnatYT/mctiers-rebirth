@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T15:56:26.817Z",
+ "updated": "2026-11-08T16:10:11.871Z",
  "players": [
   {
    "uuid": "829d5f56-ea24-405b-814f-9d205f41bced",
@@ -50,6 +50,19 @@
      "pos": 1,
      "peakTier": 3,
      "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "a212cdd3-e68f-4b68-ab38-c1d0be6cf85a",
+   "name": "Chelzzzz",
+   "region": "asau",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 0,
+     "peakTier": 3,
+     "peakPos": 0
     }
    }
   },
