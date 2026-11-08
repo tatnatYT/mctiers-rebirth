@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T19:31:42.282Z",
+ "updated": "2026-11-08T19:32:43.778Z",
  "players": [
   {
    "uuid": "829d5f56-ea24-405b-814f-9d205f41bced",
@@ -115,6 +115,19 @@
      "pos": 1,
      "peakTier": 3,
      "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "97001b9c-a4a2-46a8-a0aa-356a4d81919f",
+   "name": "EditorGoesAllIn",
+   "region": "asau",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 0,
+     "peakTier": 3,
+     "peakPos": 0
     }
    }
   },
