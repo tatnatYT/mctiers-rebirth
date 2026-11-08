@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T14:41:30.577Z",
+ "updated": "2026-11-08T14:51:17.013Z",
  "players": [
   {
    "uuid": "1000393d-c42d-4578-b2cb-63ca5bb6d114",
@@ -82,6 +82,19 @@
   {
    "uuid": "c79cbe6c-3b48-4c5d-9361-46d1255a5426",
    "name": "faxaxax",
+   "region": "eu",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
+     "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "2eb0b260-d5cc-45a3-a272-3a2c86928a9a",
+   "name": "GirlOfMace",
    "region": "eu",
    "tiers": {
     "mace": {
