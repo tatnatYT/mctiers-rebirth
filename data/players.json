@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T20:43:46.262Z",
+ "updated": "2026-11-09T15:54:36.864Z",
  "players": [
   {
    "uuid": "52522709-069e-40c7-8abe-41af758d33c8",
@@ -231,6 +231,19 @@
      "tier": 4,
      "pos": 1,
      "peakTier": 4,
+     "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "a27c8ec3-e44b-413a-b3e4-c316b99dd466",
+   "name": "Kryptxq",
+   "region": "asau",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
      "peakPos": 1
     }
    }
