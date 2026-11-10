@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T16:43:47.418Z",
+ "updated": "2026-11-10T17:14:06.972Z",
  "players": [
   {
    "uuid": "52522709-069e-40c7-8abe-41af758d33c8",
@@ -389,6 +389,19 @@
      "pos": 1,
      "peakTier": 3,
      "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "11f6cda3-f8fd-4a7a-b806-590f73b2aaf6",
+   "name": "Sillyismymommy",
+   "region": "eu",
+   "tiers": {
+    "mace": {
+     "tier": 4,
+     "pos": 0,
+     "peakTier": 4,
+     "peakPos": 0
     }
    }
   },
