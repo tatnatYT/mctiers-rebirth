@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T16:16:04.616Z",
+ "updated": "2026-11-10T16:43:47.418Z",
  "players": [
   {
    "uuid": "52522709-069e-40c7-8abe-41af758d33c8",
@@ -467,6 +467,19 @@
      "pos": 0,
      "peakTier": 4,
      "peakPos": 0
+    }
+   }
+  },
+  {
+   "uuid": "9107fb40-43b5-4ae0-9ab1-5539558ec52e",
+   "name": "zpbb",
+   "region": "eu",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
+     "peakPos": 1
     }
    }
   }
