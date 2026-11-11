@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T15:11:11.735Z",
+ "updated": "2026-11-11T22:29:20.305Z",
  "players": [
   {
    "uuid": "52522709-069e-40c7-8abe-41af758d33c8",
@@ -357,6 +357,19 @@
    "uuid": "b8829193-d250-4f2c-84d4-5f01e23e8dda",
    "name": "NeedforHuzz",
    "region": "asau",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
+     "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "002756d6-2f74-4f20-bce0-e3d452535465",
+   "name": "player1110203",
+   "region": "nasa",
    "tiers": {
     "mace": {
      "tier": 3,
