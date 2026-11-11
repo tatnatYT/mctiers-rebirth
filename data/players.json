@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T17:14:06.972Z",
+ "updated": "2026-11-11T15:11:11.735Z",
  "players": [
   {
    "uuid": "52522709-069e-40c7-8abe-41af758d33c8",
@@ -30,6 +30,19 @@
   {
    "uuid": "a56a420d-4870-4ade-a54c-2479bde87ea6",
    "name": "AmazeyGoesAllIn",
+   "region": "asau",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
+     "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "4f4e3f30-2625-4ffd-805c-3f7dca844885",
+   "name": "Avrglt5_",
    "region": "asau",
    "tiers": {
     "mace": {
