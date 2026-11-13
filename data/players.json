@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T15:59:21.874Z",
+ "updated": "2026-11-13T16:19:15.047Z",
  "players": [
   {
    "uuid": "52522709-069e-40c7-8abe-41af758d33c8",
@@ -337,6 +337,19 @@
      "peakTier": 2,
      "peakPos": 0,
      "retired": true
+    }
+   }
+  },
+  {
+   "uuid": "2dfb89a1-a518-4b7f-8185-035b2bacfe9a",
+   "name": "Mossfin",
+   "region": "asau",
+   "tiers": {
+    "mace": {
+     "tier": 5,
+     "pos": 1,
+     "peakTier": 5,
+     "peakPos": 1
     }
    }
   },
