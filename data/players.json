@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T16:19:15.047Z",
+ "updated": "2026-11-13T18:06:24.759Z",
  "players": [
   {
    "uuid": "52522709-069e-40c7-8abe-41af758d33c8",
@@ -70,6 +70,19 @@
    "uuid": "de842ab7-bec9-4d07-8d48-68d37e9b31a1",
    "name": "Bucket031",
    "region": "nasa",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
+     "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "9180740b-6fe6-44ee-8c25-ac3ef65f8df2",
+   "name": "C1rclee",
+   "region": "asau",
    "tiers": {
     "mace": {
      "tier": 3,
