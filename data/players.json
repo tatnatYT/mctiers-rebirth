@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T18:06:24.759Z",
+ "updated": "2026-11-14T01:49:55.781Z",
  "players": [
   {
    "uuid": "52522709-069e-40c7-8abe-41af758d33c8",
@@ -296,6 +296,19 @@
      "tier": 4,
      "pos": 1,
      "peakTier": 4,
+     "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "14d7b11e-2206-4238-be87-25d5b7d80f93",
+   "name": "klitepo_hary",
+   "region": "nasa",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
      "peakPos": 1
     }
    }
