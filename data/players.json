@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T12:43:24.812Z",
+ "updated": "2026-11-14T12:44:52.260Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -140,6 +140,19 @@
      "tier": 3,
      "pos": 1,
      "peakTier": 3,
+     "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "6298ec91-f6a3-49d1-a24a-8c2b1c17e7d1",
+   "name": "Colenz",
+   "region": "asau",
+   "tiers": {
+    "mace": {
+     "tier": 4,
+     "pos": 1,
+     "peakTier": 4,
      "peakPos": 1
     }
    }
