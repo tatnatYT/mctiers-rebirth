@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T01:49:55.781Z",
+ "updated": "2026-11-14T05:58:34.109Z",
  "players": [
   {
    "uuid": "52522709-069e-40c7-8abe-41af758d33c8",
@@ -346,7 +346,7 @@
    "tiers": {
     "mace": {
      "tier": 3,
-     "pos": 0,
+     "pos": 1,
      "peakTier": 3,
      "peakPos": 0
     }
