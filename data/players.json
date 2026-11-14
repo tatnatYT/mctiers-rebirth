@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T12:44:52.260Z",
+ "updated": "2026-11-14T12:55:50.477Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -424,8 +424,8 @@
    "region": "asau",
    "tiers": {
     "mace": {
-     "tier": 3,
-     "pos": 1,
+     "tier": 5,
+     "pos": 0,
      "peakTier": 3,
      "peakPos": 1
     }
