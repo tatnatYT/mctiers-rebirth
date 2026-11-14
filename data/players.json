@@ -1,6 +1,19 @@
 {
- "updated": "2026-11-14T05:58:34.109Z",
+ "updated": "2026-11-14T12:43:24.812Z",
  "players": [
+  {
+   "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
+   "name": "404Ghxst",
+   "region": "asau",
+   "tiers": {
+    "mace": {
+     "tier": 4,
+     "pos": 0,
+     "peakTier": 4,
+     "peakPos": 0
+    }
+   }
+  },
   {
    "uuid": "52522709-069e-40c7-8abe-41af758d33c8",
    "name": "_Cherrypepsi",
