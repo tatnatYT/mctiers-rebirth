@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T12:55:50.477Z",
+ "updated": "2026-11-14T13:02:55.669Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -167,6 +167,19 @@
      "pos": 0,
      "peakTier": 3,
      "peakPos": 0
+    }
+   }
+  },
+  {
+   "uuid": "4c7f9f21-d9f8-4805-8832-e2a7bcd4eff7",
+   "name": "dilshuuuu",
+   "region": "asau",
+   "tiers": {
+    "mace": {
+     "tier": 5,
+     "pos": 1,
+     "peakTier": 5,
+     "peakPos": 1
     }
    }
   },
