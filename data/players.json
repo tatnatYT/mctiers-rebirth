@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T13:02:55.669Z",
+ "updated": "2026-11-14T13:33:35.923Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -258,6 +258,19 @@
      "pos": 1,
      "peakTier": 3,
      "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "1ce6ccff-b767-4d66-89cb-b07a264e45bf",
+   "name": "Fracturized",
+   "region": "asau",
+   "tiers": {
+    "mace": {
+     "tier": 4,
+     "pos": 0,
+     "peakTier": 4,
+     "peakPos": 0
     }
    }
   },
