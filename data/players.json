@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T09:25:44.392Z",
+ "updated": "2026-11-15T09:57:55.067Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -271,6 +271,19 @@
      "pos": 1,
      "peakTier": 3,
      "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "8813815d-c2fd-4ac5-b81f-c660c7b0a748",
+   "name": "feetlover67k",
+   "region": "nasa",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 0,
+     "peakTier": 3,
+     "peakPos": 0
     }
    }
   },
