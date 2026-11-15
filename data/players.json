@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T10:48:56.287Z",
+ "updated": "2026-11-15T11:45:20.442Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -401,6 +401,19 @@
      "pos": 1,
      "peakTier": 3,
      "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "487c2080-7f6c-4a0f-b38f-274bd152ef6d",
+   "name": "latigate",
+   "region": "eu",
+   "tiers": {
+    "mace": {
+     "tier": 4,
+     "pos": 0,
+     "peakTier": 4,
+     "peakPos": 0
     }
    }
   },
