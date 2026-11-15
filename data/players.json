@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T12:36:00.799Z",
+ "updated": "2026-11-15T13:24:33.088Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -421,6 +421,19 @@
    "uuid": "19f52852-ad67-436b-945a-200689679684",
    "name": "Matttiie",
    "region": "eu",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 0,
+     "peakTier": 3,
+     "peakPos": 0
+    }
+   }
+  },
+  {
+   "uuid": "05e0de50-0031-483d-a7b1-74ed46e14de6",
+   "name": "michikosam",
+   "region": "nasa",
    "tiers": {
     "mace": {
      "tier": 3,
