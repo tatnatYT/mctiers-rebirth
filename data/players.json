@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T13:33:35.923Z",
+ "updated": "2026-11-15T07:21:21.976Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -167,6 +167,19 @@
      "pos": 0,
      "peakTier": 3,
      "peakPos": 0
+    }
+   }
+  },
+  {
+   "uuid": "aaca27e8-5f00-422c-8664-689987259faf",
+   "name": "Daxeek",
+   "region": "eu",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
+     "peakPos": 1
     }
    }
   },
