@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T09:20:42.368Z",
+ "updated": "2026-11-15T09:25:44.392Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -622,6 +622,19 @@
      "tier": 4,
      "pos": 0,
      "peakTier": 4,
+     "peakPos": 0
+    }
+   }
+  },
+  {
+   "uuid": "57a60498-0f59-47b6-8e07-735e9c00f87b",
+   "name": "zntp_",
+   "region": "nasa",
+   "tiers": {
+    "mace": {
+     "tier": 5,
+     "pos": 0,
+     "peakTier": 5,
      "peakPos": 0
     }
    }
