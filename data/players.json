@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T09:57:55.067Z",
+ "updated": "2026-11-15T10:48:56.287Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -480,6 +480,19 @@
      "pos": 0,
      "peakTier": 3,
      "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "c7a869b4-bbc9-4a23-87b2-205a6abb6d46",
+   "name": "PepperKingPK",
+   "region": "eu",
+   "tiers": {
+    "mace": {
+     "tier": 5,
+     "pos": 0,
+     "peakTier": 5,
+     "peakPos": 0
     }
    }
   },
