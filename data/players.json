@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T07:21:21.976Z",
+ "updated": "2026-11-15T09:20:42.368Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -597,6 +597,19 @@
      "pos": 1,
      "peakTier": 3,
      "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "f5b1cd26-3598-4539-bd39-80899497d324",
+   "name": "tmhxy",
+   "region": "asau",
+   "tiers": {
+    "mace": {
+     "tier": 4,
+     "pos": 0,
+     "peakTier": 4,
+     "peakPos": 0
     }
    }
   },
