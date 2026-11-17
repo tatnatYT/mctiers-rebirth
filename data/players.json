@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T13:24:33.088Z",
+ "updated": "2026-11-17T11:14:24.712Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -596,6 +596,19 @@
      "tier": 3,
      "pos": 0,
      "peakTier": 3,
+     "peakPos": 0
+    }
+   }
+  },
+  {
+   "uuid": "7ea64c45-3bf3-4362-a6e6-fff24c81cda8",
+   "name": "SolidCandyy",
+   "region": "eu",
+   "tiers": {
+    "mace": {
+     "tier": 4,
+     "pos": 0,
+     "peakTier": 4,
      "peakPos": 0
     }
    }
