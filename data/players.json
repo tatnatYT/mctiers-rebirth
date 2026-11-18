@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T11:03:46.804Z",
+ "updated": "2026-11-18T19:04:06.249Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -513,6 +513,19 @@
    "uuid": "c39dccf9-82d9-4962-9cf0-ac665bc8a07a",
    "name": "muhOnCeiling",
    "region": "eu",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 0,
+     "peakTier": 3,
+     "peakPos": 0
+    }
+   }
+  },
+  {
+   "uuid": "102da7cd-4326-4beb-bba7-9d618fb8f95d",
+   "name": "Nearyy",
+   "region": "nasa",
    "tiers": {
     "mace": {
      "tier": 3,
