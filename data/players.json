@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T19:22:51.368Z",
+ "updated": "2026-11-18T20:59:53.658Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -564,19 +564,6 @@
   {
    "uuid": "002756d6-2f74-4f20-bce0-e3d452535465",
    "name": "player1110203",
-   "region": "nasa",
-   "tiers": {
-    "mace": {
-     "tier": 3,
-     "pos": 1,
-     "peakTier": 3,
-     "peakPos": 1
-    }
-   }
-  },
-  {
-   "uuid": "a94b02aa-aa09-42c8-8ee1-d897b80f9a60",
-   "name": "Poolx2",
    "region": "nasa",
    "tiers": {
     "mace": {
