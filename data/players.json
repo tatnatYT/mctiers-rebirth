@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T15:29:43.174Z",
+ "updated": "2026-11-19T15:42:56.536Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -361,6 +361,19 @@
      "tier": 3,
      "pos": 1,
      "peakTier": 3,
+     "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "12988341-b5c7-44fd-b997-38b55d11e050",
+   "name": "itzGL1TCH3D",
+   "region": "eu",
+   "tiers": {
+    "mace": {
+     "tier": 4,
+     "pos": 1,
+     "peakTier": 4,
      "peakPos": 1
     }
    }
