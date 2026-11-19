@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T15:42:56.536Z",
+ "updated": "2026-11-19T18:30:35.477Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -479,6 +479,19 @@
      "pos": 0,
      "peakTier": 4,
      "peakPos": 0
+    }
+   }
+  },
+  {
+   "uuid": "f0721303-93a4-4a2b-9c00-7767fe26eb8d",
+   "name": "lavanaxer120",
+   "region": "asau",
+   "tiers": {
+    "mace": {
+     "tier": 4,
+     "pos": 1,
+     "peakTier": 4,
+     "peakPos": 1
     }
    }
   },
