@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T20:59:53.658Z",
+ "updated": "2026-11-19T07:20:56.132Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -591,6 +591,19 @@
    "uuid": "f2f41641-3287-42fa-9475-ea0bcbb6a084",
    "name": "qNava",
    "region": "asau",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
+     "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "1ca675a6-56df-43ce-8146-dea5a192a6fb",
+   "name": "Redredo_",
+   "region": "eu",
    "tiers": {
     "mace": {
      "tier": 3,
