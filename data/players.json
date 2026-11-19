@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T18:30:35.477Z",
+ "updated": "2026-11-19T20:15:43.453Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -713,6 +713,19 @@
      "tier": 4,
      "pos": 0,
      "peakTier": 4,
+     "peakPos": 0
+    }
+   }
+  },
+  {
+   "uuid": "64a6a1ad-3e1c-4c6a-8529-0e5ff7565150",
+   "name": "soVali_",
+   "region": "eu",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 0,
+     "peakTier": 3,
      "peakPos": 0
     }
    }
