@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T07:20:56.132Z",
+ "updated": "2026-11-19T15:06:42.147Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -388,6 +388,19 @@
      "pos": 1,
      "peakTier": 3,
      "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "d08b1853-d0de-48a4-856c-617ca5d3ebb5",
+   "name": "Jbrxu",
+   "region": "eu",
+   "tiers": {
+    "mace": {
+     "tier": 4,
+     "pos": 0,
+     "peakTier": 4,
+     "peakPos": 0
     }
    }
   },
