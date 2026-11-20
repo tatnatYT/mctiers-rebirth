@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T20:15:43.453Z",
+ "updated": "2026-11-20T01:59:20.784Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -571,6 +571,19 @@
      "pos": 0,
      "peakTier": 3,
      "peakPos": 0
+    }
+   }
+  },
+  {
+   "uuid": "06945bcd-5511-41df-b685-f8b927dc4c3b",
+   "name": "naskjbfse",
+   "region": "nasa",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
+     "peakPos": 1
     }
    }
   },
