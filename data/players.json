@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T06:08:35.022Z",
+ "updated": "2026-11-21T07:25:55.605Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -688,6 +688,19 @@
      "pos": 1,
      "peakTier": 3,
      "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "d38f2061-cbb6-45d4-a7a0-ac591e1cf2b4",
+   "name": "RottenTwirps",
+   "region": "asau",
+   "tiers": {
+    "mace": {
+     "tier": 5,
+     "pos": 0,
+     "peakTier": 5,
+     "peakPos": 0
     }
    }
   },
