@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T19:54:10.787Z",
+ "updated": "2026-11-21T20:06:38.168Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -857,6 +857,19 @@
      "pos": 0,
      "peakTier": 4,
      "peakPos": 0
+    }
+   }
+  },
+  {
+   "uuid": "b2ef52ea-dcb5-43e1-82a2-44e0a918c6b5",
+   "name": "Toffuulol",
+   "region": "eu",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
+     "peakPos": 1
     }
    }
   },
