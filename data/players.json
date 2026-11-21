@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T20:06:38.168Z",
+ "updated": "2026-11-21T20:17:25.099Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -870,6 +870,19 @@
      "pos": 1,
      "peakTier": 3,
      "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "e23be80d-10ef-4c8e-aa08-3e15cad2cf63",
+   "name": "V8EIGHT",
+   "region": "eu",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 0,
+     "peakTier": 3,
+     "peakPos": 0
     }
    }
   },
