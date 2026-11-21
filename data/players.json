@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T16:56:28.191Z",
+ "updated": "2026-11-21T06:08:35.022Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -773,6 +773,19 @@
    "uuid": "bcc9c81e-db55-4676-9abe-6e3f9ed38d0d",
    "name": "stunslams",
    "region": "eu",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 0,
+     "peakTier": 3,
+     "peakPos": 0
+    }
+   }
+  },
+  {
+   "uuid": "b5e74d27-d042-4a95-b6b1-776b61dffa5e",
+   "name": "Sufiyaa",
+   "region": "nasa",
    "tiers": {
     "mace": {
      "tier": 3,
