@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T11:23:48.564Z",
+ "updated": "2026-11-23T20:48:50.775Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -619,10 +619,10 @@
    "region": "nasa",
    "tiers": {
     "mace": {
-     "tier": 3,
-     "pos": 0,
-     "peakTier": 3,
-     "peakPos": 0
+     "tier": 2,
+     "pos": 1,
+     "peakTier": 2,
+     "peakPos": 1
     }
    }
   },
