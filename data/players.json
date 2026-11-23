@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T20:48:50.775Z",
+ "updated": "2026-11-23T21:03:53.067Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -597,6 +597,19 @@
      "pos": 0,
      "peakTier": 3,
      "peakPos": 0
+    }
+   }
+  },
+  {
+   "uuid": "4913c68e-8a84-4e75-b153-92aa84342aea",
+   "name": "Nadiens",
+   "region": "nasa",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
+     "peakPos": 1
     }
    }
   },
