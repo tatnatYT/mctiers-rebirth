@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T09:49:25.200Z",
+ "updated": "2026-11-25T11:37:25.339Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -538,6 +538,19 @@
    "uuid": "69bf759b-bc31-4b63-93ac-6309ce9adf7f",
    "name": "matupaput",
    "region": "eu",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
+     "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "bac9adc7-4dbd-433e-b212-2d6e767a7dc7",
+   "name": "Mc_alt_0001",
+   "region": null,
    "tiers": {
     "mace": {
      "tier": 3,
