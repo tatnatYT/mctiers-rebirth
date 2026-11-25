@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T11:37:25.339Z",
+ "updated": "2026-11-25T11:37:33.571Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -550,7 +550,7 @@
   {
    "uuid": "bac9adc7-4dbd-433e-b212-2d6e767a7dc7",
    "name": "Mc_alt_0001",
-   "region": null,
+   "region": "nasa",
    "tiers": {
     "mace": {
      "tier": 3,
