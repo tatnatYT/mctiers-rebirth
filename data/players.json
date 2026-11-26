@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T21:23:29.425Z",
+ "updated": "2026-11-26T16:52:24.649Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -76,6 +76,19 @@
      "pos": 0,
      "peakTier": 3,
      "peakPos": 0
+    }
+   }
+  },
+  {
+   "uuid": "1b1e7951-2f4e-4f32-9b09-e2f0977ef68e",
+   "name": "Breezeei",
+   "region": "asau",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
+     "peakPos": 1
     }
    }
   },
