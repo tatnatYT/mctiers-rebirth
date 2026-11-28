@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T10:55:45.991Z",
+ "updated": "2026-11-28T10:30:58.965Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -379,6 +379,19 @@
    }
   },
   {
+   "uuid": "ba85a36e-8b3a-4fe9-8116-b56f4bff0ef5",
+   "name": "HBMGoesAllIn",
+   "region": "asau",
+   "tiers": {
+    "mace": {
+     "tier": 3,
+     "pos": 1,
+     "peakTier": 3,
+     "peakPos": 1
+    }
+   }
+  },
+  {
    "uuid": "41ccdd2f-ec83-4f33-a7c9-128f1834754e",
    "name": "Herm_s_",
    "region": "eu",
@@ -466,19 +479,6 @@
      "pos": 0,
      "peakTier": 3,
      "peakPos": 0
-    }
-   }
-  },
-  {
-   "uuid": "ba85a36e-8b3a-4fe9-8116-b56f4bff0ef5",
-   "name": "JustHBM",
-   "region": "asau",
-   "tiers": {
-    "mace": {
-     "tier": 3,
-     "pos": 1,
-     "peakTier": 3,
-     "peakPos": 1
     }
    }
   },
