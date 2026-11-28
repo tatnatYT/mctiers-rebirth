@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T11:22:40.777Z",
+ "updated": "2026-11-28T15:57:22.316Z",
  "players": [
   {
    "uuid": "d181dda4-3750-44f3-9143-bcb5c495f046",
@@ -961,6 +961,19 @@
      "pos": 1,
      "peakTier": 3,
      "peakPos": 1
+    }
+   }
+  },
+  {
+   "uuid": "2cf71f5a-6506-49a1-8d66-7e5e875c3e28",
+   "name": "V1sions_Creator",
+   "region": "nasa",
+   "tiers": {
+    "mace": {
+     "tier": 5,
+     "pos": 0,
+     "peakTier": 5,
+     "peakPos": 0
     }
    }
   },
